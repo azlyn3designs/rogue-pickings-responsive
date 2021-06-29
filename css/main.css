@@ -1,0 +1,229 @@
+/* CSS STYLESHEET FOR ROGUE PICKINGS RESPONSIVE WEBSITE DESIGN */
+
+
+/* =============================================================
+                MOBILE FIRST RESPONSIVE DESIGN
+============================================================= */
+
+/* ---------- BASIC STYLING ---------- */
+
+html {
+	font-size: 16px;
+}
+
+body {
+	align-items: center;
+	display: flex;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	justify-content: center;
+	width: 100%;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 90%;
+}
+
+h1, h2, h3 {
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 1.875em;
+}
+
+h2 {
+	font-size: 1.125em;
+}
+
+h3 {
+	font-size: .75em;
+}
+
+p {
+	font-size: .875em;
+	line-height: 1.3125em;
+    padding: 0;
+}
+
+
+
+/* ---------- HEADER SECTION ---------- */
+
+/* The widths are in a percentage! */
+header {
+	align-items: center;
+	display: flex;
+	flex-basis: 100%;
+    flex-flow: row wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+header h1 {
+	border-bottom: 3px solid #77a466;
+	display: block;
+	margin: 0;
+	padding: 38px 0 16px 0;
+	text-align: center;
+    width: 100%;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+
+
+/* ---------- NAVIGATION ---------- */
+
+header nav {
+	padding: 10px 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	font-size: .875em;
+	font-weight: 700;
+	list-style-type: none;
+	padding: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header nav ul li a{
+	color: #77a466;
+	text-decoration: none;
+}
+
+
+
+/* ---------- TOP & BOTTOM SECTIONS BASIC STYLING ---------- */
+
+/* The widths are in a percentage! */
+.top-section, .bottom-section {
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+
+/* ---------- MAIN IMAGE ---------- */
+
+
+.main-image img {
+	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+	width: 100%;
+}
+
+
+
+/* ---------- MAIN TITLE SECTION ---------- */
+
+
+.main-title h2 {
+	color: #77a466;
+	padding: 5px 0;
+	text-align: left;
+}
+
+.main-title p {
+	font-size: 1em;
+	line-height: 25px;
+	padding: 0;
+}
+
+
+
+/* ---------- 3-COLUMN BOTTOM SECTION ---------- */
+
+.section-one, .section-two, .section-three {
+	border-top: 1px solid #eee;
+	flex-basis: 100%;
+	width: 33%;
+}
+
+.section-one h3 {
+	padding: 10px 0;
+}
+
+.section-two h3, .section-three h3 {
+	padding: 10px 0;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	color: #77a466;
+	padding: 10px 0;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.3125em;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+
+
+/* ---------- FOOTER SECTION ---------- */
+
+/* The widths are in a percentage! */
+footer {
+	align-items: center;
+	border-top: 3px solid #eee;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer span {
+	color: #77a466;
+	font-family: 'Galada', cursive;
+	font-size: .875em;
+	text-transform: lowercase;
+}
+
+
+
+/* =============================================================
+                TABLET RESPONSIVE DESIGN
+============================================================= */
+
+@media all and (min-width: 768px) {
+
+}
+
+
+
+
+/* =============================================================
+                DESKTOP RESPONSIVE DESIGN
+============================================================= */
+@media all and (min-width: 1200px) {
+
+}
